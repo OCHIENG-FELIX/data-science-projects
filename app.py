@@ -100,7 +100,7 @@ with col2:
      fare = st.number_input("Fare paid ($)", 0.0, 500.0, 32.0)
      embarked = st.selectbox("Port of Embarkation", ["C", "Q", "S"])
  
- input_data = pd.DataFrame({
+input_data = pd.DataFrame({
      'Pclass': [pclass],
      'Sex': [sex],
      'Age': [age],
