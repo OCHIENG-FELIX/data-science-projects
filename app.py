@@ -90,8 +90,8 @@ st.subheader("Will this passenger survive the Titanic?")
 col1, col2 = st.columns(2)
 
 with col1:
-pclass = st.selectbox("Passenger Class", [1, 2, 3])
-sex = st.selectbox("Sex", ["male", "female"])
+     pclass = st.selectbox("Passenger Class", [1, 2, 3])
+     sex = st.selectbox("Sex", ["male", "female"])
      age = st.slider("Age", 0, 80, 30)
  
  with col2:
