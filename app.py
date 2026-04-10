@@ -94,7 +94,7 @@ with col1:
      sex = st.selectbox("Sex", ["male", "female"])
      age = st.slider("Age", 0, 80, 30)
  
- with col2:
+with col2:
      sibsp = st.number_input("Siblings/Spouses aboard", 0, 8, 0)
      parch = st.number_input("Parents/Children aboard", 0, 6, 0)
      fare = st.number_input("Fare paid ($)", 0.0, 500.0, 32.0)
