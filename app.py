@@ -110,7 +110,7 @@ input_data = pd.DataFrame({
      'Embarked': [embarked]
  })
  
- if st.button("🔮 Predict Survival"):
+if st.button("🔮 Predict Survival"):
      prediction = model.predict(input_data)[0]
      probability = model.predict_proba(input_data)[0][1]
  
