@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 import joblib
+from sklearn
 
 # Load the saved model
 model = joblib.load('titanic_best_model.pkl')
